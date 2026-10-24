@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ifix-services
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TO_EMAIL
+        value: help@ifixservice.online
+      - key: FROM_EMAIL
+        value: no-reply@ifixservice.online
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>iFix Services | Crypto Asset Recovery & Investigation, Miami, FL</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 4 33 9v11c0 8-6 13-13 16C13 33 7 28 7 20V9z' fill='%230aa89e'/%3E%3Cpath d='m14 20.5 4 4 8-9' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#f5f8fb;--surf:#fff;--ink:#0b1b2b;--mut:#51657a;--acc:#0aa89e;--acc2:#1f6feb;--line:#dbe4ec;--hero:#0b1b2b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#08121d;--surf:#0f1d2c;--ink:#e8f0f7;--mut:#93a7bb;--line:#1e3248;--hero:#050d16;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#08121d;--surf:#0f1d2c;--ink:#e8f0f7;--mut:#93a7bb;--line:#1e3248;--hero:#050d16;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--hero) 92%,transparent);backdrop-filter:blur(10px);color:#fff}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}.logo svg{width:34px;height:34px;flex:none}.logo b{color:var(--acc)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:.92rem}
+nav ul a{opacity:.8}nav ul a:hover{opacity:1}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;padding:12px 24px;border-radius:10px;font-weight:600;border:0;cursor:pointer;font-size:1rem;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(10,168,158,.35)}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.35)}
+.hero{position:relative;background:var(--hero);color:#fff;overflow:hidden;padding:90px 0 100px;margin-top:-60px;padding-top:150px}
+#cv{position:absolute;inset:0;width:100%;height:100%}
+.hero .wrap{position:relative}
+.tag{display:inline-block;border:1px solid rgba(10,168,158,.5);color:#5eead4;padding:4px 14px;border-radius:99px;font-size:.8rem;margin-bottom:18px}
+h1{font-size:clamp(2.1rem,6vw,3.8rem);line-height:1.1;margin:0 0 18px;letter-spacing:-.03em;max-width:760px}
+h1 span{background:linear-gradient(90deg,#5eead4,#60a5fa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:600px;color:#b6c6d6;font-size:1.1rem}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+section{padding:80px 0}
+h2{font-size:clamp(1.6rem,4vw,2.3rem);margin:0 0 10px;letter-spacing:-.02em}
+.sub{color:var(--mut);max-width:620px;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:26px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-6px);border-color:var(--acc);box-shadow:0 14px 34px rgba(10,168,158,.15)}
+.ic{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;font-size:1.3rem;margin-bottom:14px}
+.card h3{margin:0 0 6px;font-size:1.1rem}.card p{margin:0;color:var(--mut);font-size:.95rem}
+.steps .card{position:relative}.num{font-size:2.2rem;font-weight:800;color:var(--acc);opacity:.5;line-height:1}
+.alert{background:var(--surf);border:1px solid var(--line);border-left:4px solid #f59e0b;border-radius:14px;padding:26px}
+.alert ul{margin:10px 0 0;padding-left:20px;color:var(--mut)}
+details{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}details p{color:var(--mut);margin:10px 0 0}
+form{display:grid;gap:12px;max-width:560px}
+input,textarea,select{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surf);color:var(--ink);font:inherit}
+.ok{color:var(--acc);font-weight:600;display:none}
+footer{background:var(--hero);color:#9fb3c6;padding:40px 0;font-size:.85rem}
+footer small{display:block;margin-top:12px;max-width:800px;opacity:.8}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+#cb{position:fixed;right:18px;bottom:calc(env(safe-area-inset-bottom,0px) + 18px);z-index:50}
+#cbBtn{width:60px;height:60px;border-radius:50%;border:0;cursor:pointer;font-size:1.6rem;color:#fff;background:linear-gradient(135deg,var(--acc),var(--acc2));box-shadow:0 8px 24px rgba(0,0,0,.3);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(10,168,158,.6)}70%{box-shadow:0 0 0 16px rgba(10,168,158,0)}100%{box-shadow:0 0 0 0 rgba(10,168,158,0)}}
+#cbPanel{display:none;position:absolute;right:0;bottom:74px;width:min(360px,calc(100vw - 36px));height:min(480px,70vh);background:var(--surf);border:1px solid var(--line);border-radius:18px;box-shadow:0 20px 50px rgba(0,0,0,.35);flex-direction:column;overflow:hidden}
+#cbPanel.open{display:flex}
+.ch{background:var(--hero);color:#fff;padding:14px 16px;font-weight:600;display:flex;justify-content:space-between}
+.ch button{background:none;border:0;color:#fff;font-size:1.2rem;cursor:pointer}
+#msgs{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:8px}
+.m{max-width:85%;padding:10px 13px;border-radius:14px;font-size:.92rem;animation:pop .25s}
+@keyframes pop{from{opacity:0;transform:scale(.95)}}
+.m.b{background:var(--bg);border:1px solid var(--line);align-self:flex-start}
+.m.u{background:var(--acc);color:#fff;align-self:flex-end}
+.qr{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 8px}
+.qr button{border:1px solid var(--acc);background:transparent;color:var(--acc);border-radius:99px;padding:5px 12px;font-size:.8rem;cursor:pointer}
+.ci{display:flex;border-top:1px solid var(--line)}
+.ci input{border:0;border-radius:0}.ci button{border:0;background:var(--acc);color:#fff;padding:0 18px;cursor:pointer}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.badges span{border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);padding:7px 14px;border-radius:99px;font-size:.85rem;color:#d5e3ef}.badges b{color:#5eead4}
+.fee{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;border-radius:16px;padding:26px;margin-top:18px}.fee h3{margin:0 0 6px}.fee p{margin:0;opacity:.95}
+@media(max-width:720px){nav ul{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="a1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0aa89e"/><stop offset="1" stop-color="#1f6feb"/></linearGradient></defs><path d="M20 4 33 9v11c0 8-6 13-13 16C13 33 7 28 7 20V9z" fill="url(#a1)"/><path d="m14 20.5 4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>i<b>Fix</b> Services</span></a>
+<ul><li><a href="#services">Services</a></li><li><a href="#process">Process</a></li><li><a href="#honest">Our Promise</a></li><li><a href="#faq">FAQ</a></li></ul>
+<a class="btn" style="padding:8px 18px;font-size:.9rem" href="#contact">Free Consultation</a></div></nav>
+
+<header class="hero" id="top"><canvas id="cv"></canvas>
+<div class="wrap"><span class="tag">● Based in Miami, Florida</span>
+<h1>Blockchain investigation for <span>lost &amp; stolen crypto</span></h1>
+<p>iFix Services helps individuals and businesses trace stolen digital assets, regain access to wallets, and build evidence for law enforcement and legal action, with transparency at every step.</p>
+<div class="cta"><a class="btn" href="#contact">Request a Free Case Review</a><a class="btn ghost" href="#process">How It Works</a></div>
+<div class="badges"><span><b>✓</b> Free case feasibility review</span><span><b>✓</b> Written report with every case</span><span><b>✓</b> No recovery, no recovery fee*</span></div></div></header>
+
+<section id="services"><div class="wrap">
+<h2 class="rv">What we do</h2><p class="sub rv">Practical, honest help after a loss or theft.</p>
+<div class="grid">
+<div class="card rv"><div class="ic">🔍</div><h3>Transaction Tracing</h3><p>Follow stolen funds across wallets, mixers and exchanges using on-chain analysis.</p></div>
+<div class="card rv"><div class="ic">🔑</div><h3>Wallet Access Recovery</h3><p>Assistance with forgotten passwords, damaged devices and corrupted wallet files you own.</p></div>
+<div class="card rv"><div class="ic">📄</div><h3>Evidence Reports</h3><p>Clear, organized reports for police, the FBI, exchanges and attorneys.</p></div>
+<div class="card rv"><div class="ic">🛡️</div><h3>Security Hardening</h3><p>Secure your remaining assets and prevent repeat attacks.</p></div>
+</div></div></section>
+
+<section id="process" style="background:var(--surf)"><div class="wrap">
+<h2 class="rv">Our process</h2><p class="sub rv">Four clear steps, no surprises.</p>
+<div class="grid steps">
+<div class="card rv"><div class="num">01</div><h3>Free Case Review</h3><p>Tell us what happened. We assess whether recovery is realistic.</p></div>
+<div class="card rv"><div class="num">02</div><h3>Investigation</h3><p>We trace transactions and identify where funds moved.</p></div>
+<div class="card rv"><div class="num">03</div><h3>Report &amp; Options</h3><p>You get written findings and your options, including legal and law-enforcement routes.</p></div>
+<div class="card rv"><div class="num">04</div><h3>Action</h3><p>We support exchange freeze requests and coordination with authorities.</p></div>
+</div></div></section>
+
+<section id="assess"><div class="wrap">
+<h2 class="rv">How we assess every case</h2><p class="sub rv">You get a straight answer before you commit to anything.</p>
+<div class="grid">
+<div class="card rv"><div class="ic">📊</div><h3>Feasibility Score</h3><p>We rate your case as strong, possible or unlikely, based on how the funds moved.</p></div>
+<div class="card rv"><div class="ic">🏦</div><h3>Exchange Touchpoints</h3><p>We check whether funds reached a regulated exchange that can freeze or cooperate.</p></div>
+<div class="card rv"><div class="ic">📝</div><h3>Written Report</h3><p>Every case ends with a clear written report you can share with police or an attorney.</p></div>
+</div>
+<div class="fee rv"><h3>No recovery, no recovery fee*</h3><p>*Applies to recovery fees only. [Add your exact terms here: percentage, any investigation or report costs, and what happens if funds are only partially recovered.] Full terms are provided in writing before work begins.</p></div>
+</div></section>
+
+<section id="honest"><div class="wrap">
+<div class="alert rv"><h2 style="font-size:1.5rem">⚠️ Our promise: honesty first</h2>
+<p style="color:var(--mut);margin:0">Crypto recovery is hard, and many “recovery services” are scams themselves. We hold ourselves to a clear standard:</p>
+<ul><li>We never guarantee recovery or a success rate.</li>
+<li>We will <b>never</b> ask for your seed phrase, private keys or wallet password.</li>
+<li>We will never contact you first or ask you to “unlock” funds by paying a release fee.</li>
+<li>We encourage you to report every theft to the FBI at <b>ic3.gov</b> and to local police.</li></ul></div>
+</div></section>
+
+<section id="faq" style="background:var(--surf)"><div class="wrap" style="max-width:760px">
+<h2 class="rv">Frequently asked questions</h2><br>
+<details class="rv"><summary>Can you guarantee I’ll get my crypto back?</summary><p>No. Nobody honestly can. Outcomes depend on how the funds moved and whether they reached a regulated exchange. We will tell you plainly if a case looks unlikely.</p></details>
+<details class="rv"><summary>What do you need from me?</summary><p>Transaction IDs, wallet addresses, dates, screenshots and any communication with the scammer. Never your seed phrase or private keys.</p></details>
+<details class="rv"><summary>Do you serve clients outside Florida?</summary><p>Yes. We are headquartered in Miami, Florida and work with clients remotely across the U.S.</p></details>
+<details class="rv"><summary>How are fees structured?</summary><p>The case review and feasibility assessment are free. Recovery fees are only charged if funds are recovered, and full terms are provided in writing before any work begins.</p></details>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2 class="rv">Request a free case review</h2><p class="sub rv">Share the basics. Please do not include seed phrases or passwords.</p>
+<form id="f" class="rv"><input name="name" required placeholder="Full name"><input name="email" required type="email" placeholder="Email"><select name="type"><option>Stolen / scammed</option><option>Lost wallet access</option><option>Exchange issue</option><option>Other</option></select><textarea name="message" required rows="4" placeholder="Briefly describe what happened"></textarea><input name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px"><button class="btn" type="submit">Submit Request</button><div class="ok" id="ok"></div></form>
+</div></section>
+
+<footer><div class="wrap"><div class="logo" style="color:#fff"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="a2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0aa89e"/><stop offset="1" stop-color="#1f6feb"/></linearGradient></defs><path d="M20 4 33 9v11c0 8-6 13-13 16C13 33 7 28 7 20V9z" fill="url(#a2)"/><path d="m14 20.5 4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>i<b>Fix</b> Services</span></div>
+<div>Miami, FL, USA · <a href="tel:+13052020672">+1 305 202-0672</a> · <a href="mailto:help@ifixservice.online">help@ifixservice.online</a></div>
+</div></footer>
+
+<div id="cb"><div id="cbPanel"><div class="ch"><span>iFix Assistant</span><button id="cx" aria-label="Close">✕</button></div><div id="msgs"></div><div class="qr" id="qr"></div><form class="ci" id="cf" style="display:flex"><input id="ci" placeholder="Type a question…" autocomplete="off"><button>Send</button></form></div><button id="cbBtn" aria-label="Chat">💬</button></div>
+
+<script>
+// Network canvas
+(function(){var c=document.getElementById('cv'),x=c.getContext('2d'),P=[],W,H;
+function rs(){W=c.width=c.offsetWidth;H=c.height=c.offsetHeight}rs();addEventListener('resize',rs);
+for(var i=0;i<55;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.5,vy:(Math.random()-.5)*.5});
+function d(){x.clearRect(0,0,W,H);P.forEach(function(p,i){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+x.fillStyle='rgba(94,234,212,.8)';x.beginPath();x.arc(p.x,p.y,2,0,6.3);x.fill();
+for(var j=i+1;j<P.length;j++){var q=P[j],dx=p.x-q.x,dy=p.y-q.y,r=Math.sqrt(dx*dx+dy*dy);if(r<130){x.strokeStyle='rgba(96,165,250,'+(1-r/130)*.4+')';x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.stroke()}}});requestAnimationFrame(d)}d()})();
+// Scroll reveal
+var io=new IntersectionObserver(function(e){e.forEach(function(n){if(n.isIntersecting){n.target.classList.add('in');io.unobserve(n.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay=(i%4)*80+'ms';io.observe(el)});
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();var f=this,ok=document.getElementById('ok'),d={};new FormData(f).forEach(function(v,k){d[k]=v});if(d.website)return;
+fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){if(!r.ok)throw r.status;ok.textContent='Thank you. We will be in touch shortly.';ok.style.display='block';f.reset()}).catch(function(){location.href='mailto:help@ifixservice.online?subject='+encodeURIComponent('Case review: '+d.type)+'&body='+encodeURIComponent('Name: '+d.name+'\nEmail: '+d.email+'\n\n'+d.message);ok.textContent='Your email app should open with your request ready to send. If not, email help@ifixservice.online.';ok.style.display='block'})});
+// Chatbot
+var panel=document.getElementById('cbPanel'),msgs=document.getElementById('msgs'),qr=document.getElementById('qr'),started=false;
+var KB=[
+[/seed|private key|password|phrase/,"Never share your seed phrase, private keys or passwords with anyone, including us. Anyone who asks for them is trying to steal your funds."],
+[/guarantee|success|rate|sure|promise/,"We can’t guarantee recovery, and be wary of anyone who does. We’ll give you an honest assessment of your chances in a free review."],
+[/fee|cost|price|pay|charge/,"The case review is free, and our recovery fee applies only if funds are recovered. Full terms are given in writing before work begins. We never charge a “release fee” to unlock funds."],
+[/scam|stolen|hack|theft|phish/,"I’m sorry that happened. Act fast: stop all contact with the scammer, save every transaction ID and message, report to ic3.gov and local police, then request a free case review below."],
+[/lost|forgot|access|device|wallet/,"If you’ve lost access to a wallet you own, we may be able to help with password or file recovery. The free review will tell us if it’s feasible."],
+[/where|miami|florida|location|office/,"We’re based in Miami, Florida and serve clients remotely across the U.S."],
+[/time|long|how fast|days/,"Timelines vary by case. Simple traces can take days; complex ones take longer. We’ll give an estimate after the review."],
+[/contact|consult|review|talk|human|call/,"You can request a free case review using the form at the bottom of this page. Tap “Free Consultation” in the menu."],
+[/hi|hello|hey/,"Hello! I’m the iFix assistant. How can I help?"]];
+var QS=["I was scammed","Lost wallet access","Fees?","Can you guarantee recovery?"];
+function add(t,c){var d=document.createElement('div');d.className='m '+c;d.textContent=t;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight}
+function reply(q){add(q,'u');var l=q.toLowerCase(),a="I’m not sure about that one. Please request a free case review and our team will answer personally.";
+for(var i=0;i<KB.length;i++){if(KB[i][0].test(l)){a=KB[i][1];break}}
+setTimeout(function(){add(a,'b')},500)}
+QS.forEach(function(q){var b=document.createElement('button');b.textContent=q;b.onclick=function(){reply(q)};qr.appendChild(b)});
+function tog(){panel.classList.toggle('open');if(!started){started=true;add("Hi! I’m the iFix assistant. Ask me about our services, fees or what to do after a theft. Never share seed phrases here.",'b')}}
+document.getElementById('cbBtn').onclick=tog;document.getElementById('cx').onclick=tog;
+document.getElementById('cf').addEventListener('submit',function(e){e.preventDefault();var i=document.getElementById('ci');if(i.value.trim()){reply(i.value.trim());i.value=''}});
+</script>
+</body>
+</html>
